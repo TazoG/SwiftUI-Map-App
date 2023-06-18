@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		DAC1F76F2A3F80A600656296 /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F76E2A3F80A600656296 /* SwiftUIMapAppApp.swift */; };
 		DAC1F7712A3F80A600656296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F7702A3F80A600656296 /* ContentView.swift */; };
-		DAC1F7732A3F80AA00656296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC1F7722A3F80AA00656296 /* Assets.xcassets */; };
 		DAC1F7762A3F80AA00656296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC1F7752A3F80AA00656296 /* Preview Assets.xcassets */; };
+		DAC1F77D2A3F827600656296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC1F77C2A3F827600656296 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAC1F76B2A3F80A600656296 /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC1F76E2A3F80A600656296 /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
 		DAC1F7702A3F80A600656296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DAC1F7722A3F80AA00656296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC1F7752A3F80AA00656296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAC1F77C2A3F827600656296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				DAC1F76E2A3F80A600656296 /* SwiftUIMapAppApp.swift */,
 				DAC1F7702A3F80A600656296 /* ContentView.swift */,
-				DAC1F7722A3F80AA00656296 /* Assets.xcassets */,
+				DAC1F77C2A3F827600656296 /* Assets.xcassets */,
 				DAC1F7742A3F80AA00656296 /* Preview Content */,
 			);
 			path = SwiftUIMapApp;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC1F77D2A3F827600656296 /* Assets.xcassets in Resources */,
 				DAC1F7762A3F80AA00656296 /* Preview Assets.xcassets in Resources */,
-				DAC1F7732A3F80AA00656296 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
