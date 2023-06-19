@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAB3BEEA2A4071E500ED74D5 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3BEE92A4071E500ED74D5 /* LocationsView.swift */; };
+		DAB3BEEC2A407AAE00ED74D5 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3BEEB2A407AAE00ED74D5 /* LocationsViewModel.swift */; };
 		DAC1F76F2A3F80A600656296 /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F76E2A3F80A600656296 /* SwiftUIMapAppApp.swift */; };
 		DAC1F7712A3F80A600656296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F7702A3F80A600656296 /* ContentView.swift */; };
 		DAC1F7762A3F80AA00656296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC1F7752A3F80AA00656296 /* Preview Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DAB3BEE92A4071E500ED74D5 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		DAB3BEEB2A407AAE00ED74D5 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		DAC1F76B2A3F80A600656296 /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC1F76E2A3F80A600656296 /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
 		DAC1F7702A3F80A600656296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 		DAC1F77E2A3F83C700656296 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DAB3BEE92A4071E500ED74D5 /* LocationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		DAC1F7802A3F83D500656296 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DAB3BEEB2A407AAE00ED74D5 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC1F7862A3F85A800656296 /* LocationsDataService.swift in Sources */,
+				DAB3BEEC2A407AAE00ED74D5 /* LocationsViewModel.swift in Sources */,
 				DAC1F7712A3F80A600656296 /* ContentView.swift in Sources */,
+				DAB3BEEA2A4071E500ED74D5 /* LocationsView.swift in Sources */,
 				DAC1F7832A3F848C00656296 /* Location.swift in Sources */,
 				DAC1F76F2A3F80A600656296 /* SwiftUIMapAppApp.swift in Sources */,
 			);
