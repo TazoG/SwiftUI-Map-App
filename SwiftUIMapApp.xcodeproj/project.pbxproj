@@ -16,6 +16,7 @@
 		DAC1F77D2A3F827600656296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC1F77C2A3F827600656296 /* Assets.xcassets */; };
 		DAC1F7832A3F848C00656296 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F7822A3F848C00656296 /* Location.swift */; };
 		DAC1F7862A3F85A800656296 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F7852A3F85A700656296 /* LocationsDataService.swift */; };
+		DAC7980A2A4218AA00A0E4A4 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC798092A4218AA00A0E4A4 /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DAC1F77C2A3F827600656296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC1F7822A3F848C00656296 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		DAC1F7852A3F85A700656296 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		DAC798092A4218AA00A0E4A4 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				DAB3BEE92A4071E500ED74D5 /* LocationsView.swift */,
 				DAB3BEED2A409A9B00ED74D5 /* LocationsListView.swift */,
+				DAC798092A4218AA00A0E4A4 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				DAC1F7862A3F85A800656296 /* LocationsDataService.swift in Sources */,
 				DAB3BEEE2A409A9B00ED74D5 /* LocationsListView.swift in Sources */,
+				DAC7980A2A4218AA00A0E4A4 /* LocationPreviewView.swift in Sources */,
 				DAB3BEEC2A407AAE00ED74D5 /* LocationsViewModel.swift in Sources */,
 				DAC1F7712A3F80A600656296 /* ContentView.swift in Sources */,
 				DAB3BEEA2A4071E500ED74D5 /* LocationsView.swift in Sources */,
