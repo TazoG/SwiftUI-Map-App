@@ -18,6 +18,7 @@
 		DAC1F7862A3F85A800656296 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1F7852A3F85A700656296 /* LocationsDataService.swift */; };
 		DAC7980A2A4218AA00A0E4A4 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC798092A4218AA00A0E4A4 /* LocationPreviewView.swift */; };
 		DADB79892A44B85E002A6851 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB79882A44B85E002A6851 /* LocationMapAnnotationView.swift */; };
+		DADB798B2A44CFA1002A6851 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB798A2A44CFA1002A6851 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DAC1F7852A3F85A700656296 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		DAC798092A4218AA00A0E4A4 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		DADB79882A44B85E002A6851 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		DADB798A2A44CFA1002A6851 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				DAB3BEED2A409A9B00ED74D5 /* LocationsListView.swift */,
 				DAC798092A4218AA00A0E4A4 /* LocationPreviewView.swift */,
 				DADB79882A44B85E002A6851 /* LocationMapAnnotationView.swift */,
+				DADB798A2A44CFA1002A6851 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				DAC1F7712A3F80A600656296 /* ContentView.swift in Sources */,
 				DAB3BEEA2A4071E500ED74D5 /* LocationsView.swift in Sources */,
 				DAC1F7832A3F848C00656296 /* Location.swift in Sources */,
+				DADB798B2A44CFA1002A6851 /* LocationDetailView.swift in Sources */,
 				DAC1F76F2A3F80A600656296 /* SwiftUIMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
